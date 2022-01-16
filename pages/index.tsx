@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
         <div className="flex items-center space-x-3">
           {/* This will serve as a container for the text on the 'hero' page */}
-          <div className="w-6/12" >
+          <div className="w-6/12 bg-neutral-700 rounded-lg px-4 py-4" >
             <h1 className="text-5xl">
               Bulloch Alliance
             </h1>
