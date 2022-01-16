@@ -12,21 +12,24 @@ const Home: NextPage = () => {
           <title>Bulloch Alliance</title>
         </Head>
 
-        <div className="flex-auto items-center">
-          <div className="w-7/12">
+        <div className="flex items-center space-x-3">
+          {/* This will serve as a container for the text on the 'hero' page */}
+          <div className="w-6/12" >
             <h1 className="text-5xl">
               Bulloch Alliance
             </h1>
+            <br />
             <p>
-              We are FRC Team 8815.
+              We are FRC Team 8815. Our goal is to help high school students in the Bulloch County area
+              expand their horizons through exposure through STEM.
             </p>
           </div>
-          <div className="">
+          {/* This will serve a as container for the hero image */}
+          <div className="w-6/12">
             <Image
               src={tripleClimb}
-              alt="Image of Triple Climb"
-              width={400}
-              height={400}
+              layout="responsive"
+              className="rounded-lg"
             />
           </div>
         </div>

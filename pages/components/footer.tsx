@@ -2,9 +2,10 @@
 
 export default function Footer() {
   return (
-    <div className="w-screen z-50">
-      <footer>
-        This is the footer.
+    <div className="z-50 absolute bottom-0">
+      <footer className="flex">
+        <a className="font-semibold">Bulloch Alliance</a>
+        <a className="place-self-end">Contact Us</a>
       </footer>
     </div>
   )
