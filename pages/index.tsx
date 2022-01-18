@@ -27,9 +27,9 @@ const Home: NextPage = () => {
             <br />
             <h2 className="text-3xl font-medium">What we do</h2>
             <p className="leading-relaxed">
-              Our goal is to expose students to engineering and practical experience through building
-              out robots for the FIRST Robotics Competition. As we mature as a program, we will work towards
-              community outreach.
+              We are a team of volunteer mentors with a goal of providing the tools and the
+              environment for students to use the the knowledge that they have learned in
+              school and focus it into building robots and relationships with the community.
             </p>
             <p>
 
