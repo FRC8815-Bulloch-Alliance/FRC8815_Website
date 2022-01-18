@@ -2,11 +2,15 @@
 
 export default function Footer() {
   return (
-    <div className="z-50 absolute bottom-0">
-      <footer className="flex">
-        <a className="font-semibold">Bulloch Alliance</a>
-        <a className="place-self-end">Contact Us</a>
-      </footer>
-    </div>
+    <footer className="text-sm leading-6 mt-12 fixed bottom-0 w-10/12">
+      <div className="flex border-t border-neutral-400 items-center space-x-4">
+        <div>
+          <a className="font-semibold">Bulloch Alliance</a>
+        </div>
+        <div>
+          <a className="">Contact Us</a>
+        </div>
+      </div>
+    </footer>
   )
 }

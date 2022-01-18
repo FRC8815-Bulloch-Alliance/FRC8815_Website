@@ -4,10 +4,10 @@ import Footer from './footer';
 export default function Layout({ children }: { children: any }) {
   return (
     <>
-      <div className="text-gray-300 bg-neutral-800 h-screen w-screen">
+      <div className="text-gray-300 bg-neutral-800 h-screen w-full">
         <div className="w-10/12 mx-auto">
           <Navbar />
-          <main className="my-9">{children}</main>
+          <main className="mt-6">{children}</main>
           <Footer />
         </div>
       </div>
