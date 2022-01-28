@@ -12,10 +12,10 @@ const Home: NextPage = () => {
         <Head>
           <title>Bulloch Alliance</title>
         </Head>
-        <div className="md:max-w-6xl border rounded-md mx-auto">
-          <div className="md:flex items-center">
+        <div className="md:max-w-6xl lg:h-min border rounded-md m-auto self-center">
+          <div className="flex items-center">
             {/* This will serve as a container for the text on the 'hero' page */}
-            <div className="h-full p-8 mx-auto" >
+            <div className="p-8 mx-auto" >
               <h1 className="text-5xl font-medium">
                 Welcome!
               </h1>
@@ -36,12 +36,14 @@ const Home: NextPage = () => {
               </p>
             </div>
             {/* This will serve a as container for the hero image */}
-            <div className="w-1/2 md:shrink-0 h-full">
-              <Image
-                src={MidRoundImg}
-                layout="responsive"
-                className="rounded-lg"
-              />
+            <div className="">
+              <div className="lg:w-96 md:shrink-0">
+                <Image
+                  src={MidRoundImg}
+                  layout="responsive"
+                  className=""
+                />
+              </div>
             </div>
           </div>
 
