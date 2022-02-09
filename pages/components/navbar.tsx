@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <div className="flex items-center center-text py-2 space-x-4 z-50 border-b border-neutral-400">
+    <div className="flex items-center center-text py-2 space-x-4 z-100 border-b border-neutral-400">
       <div className="text-2xl font-bold">
         <Link href="/">
           <a>Bulloch Alliance</a>
