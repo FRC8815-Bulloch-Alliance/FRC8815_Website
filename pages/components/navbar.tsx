@@ -13,12 +13,14 @@ export default function Navbar() {
         <Link href="/">
           <a className="hover:underline underline-offset-8">Home</a>
         </Link>
-        <Link href="/about">
-          <a className="hover:underline underline-offset-8">About</a>
-        </Link>
-        <Link href="/mentors">
-          <a className="hover:underline underline-offset-8">Mentors</a>
-        </Link>
+        { /**
+         * <Link href="/about">
+         *   <a className="hover:underline underline-offset-8">About</a>
+         * </Link>
+         * <Link href="/mentors">
+         *   <a className="hover:underline underline-offset-8">Mentors</a>
+         * </Link>
+         */}
         <a className="hover:underline underline-offset-8">Sponsors</a>
         <a className="hover:underline underline-offset-8">Resources</a>
       </div>
