@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="text-sm leading-6 mt-12 fixed bottom-0 w-10/12">
+    <footer className="text-sm leading-6 w-full">
       <div className="flex border-t border-neutral-400 items-center space-x-4">
         <div>
           <a className="font-semibold">Bulloch Alliance</a>
